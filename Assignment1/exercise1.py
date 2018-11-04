@@ -41,7 +41,7 @@ y = df['Gross']
 y_rank = df['RankWeekly']
 
 # output to static HTML file
-output_file("filmgross.html")
+output_file("html/filmgross.html")
 
 # create a new plot with a title and axis labels
 p = figure(title="Weekly Gross ($) of Look Who's Talking (1989-1990)",

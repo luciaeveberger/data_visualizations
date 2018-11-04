@@ -13,7 +13,7 @@ from bokeh.transform import cumsum
 
 df = pd.read_csv("studio_data.csv")
 
-output_file("ex2.html")
+output_file("html/ex2.html")
 
 
 fruits = ['Apples', 'Pears', 'Nectarines', 'Plums', 'Grapes', 'Strawberries']

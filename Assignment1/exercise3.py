@@ -17,7 +17,7 @@ for val in x:
 print(x_axis)
 
 
-output_file("exercise3.html")
+output_file("html/exercise3.html")
 p = figure(title="Gross of Film by Year in Genre Biopic -> Music",
            plot_width=800,
            x_axis_label='year',

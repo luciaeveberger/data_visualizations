@@ -6,7 +6,7 @@ from bokeh.plotting import figure
 
 
 df = pd.read_csv('data/foreign_gross_data.csv')
-output_file("stacked.html")
+output_file("html/stacked.html")
 
 
 names = df['MovieName']
