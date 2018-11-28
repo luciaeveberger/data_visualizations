@@ -63,7 +63,10 @@ over_10 = BoxAnnotation(bottom=10, fill_alpha=0.1, fill_color='red')
 # add a line renderer with legend and line thickness
 p.line(x, y, legend="Weekly Gross (1989-1990)", line_width=2 )
 
+p.circle(x, y, fill_color="blue", size=8)
 rank_chart.line(x, y_rank, legend="Rank", line_width=2)
+rank_chart.legend.location = "top_left"
+
 rank_chart.add_layout(top_10)
 rank_chart.add_layout(over_10)
 rank_chart.add_layout(low_box)
